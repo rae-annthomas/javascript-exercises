@@ -1,6 +1,5 @@
 const convertToCelsius = function(fahrenheit) {
-    let c = 0;
-    c = (fahrenheit - 32) * 5/9
+    let c = (fahrenheit - 32) * 5/9
     if (!(c % 1 == 0)){
        c= Number(c.toFixed(1));
        return c
@@ -9,8 +8,7 @@ const convertToCelsius = function(fahrenheit) {
 };
 
 const convertToFahrenheit = function(c) {
-  let f = 0;
-  f= (c * 9/5 ) + 32 
+  let f= (c * 9/5 ) + 32 
   if (!(f % 1 == 0)){
     f= Number(f.toFixed(1));
        return f
